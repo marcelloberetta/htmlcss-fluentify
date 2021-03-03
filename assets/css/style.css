@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+  background-color: #0c325a;
+  width: 100vw;
+  height: 500px;
+  background-image:url(../img/background-header.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 118% 100%;
+}
+
+
