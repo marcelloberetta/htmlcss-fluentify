@@ -87,10 +87,7 @@ header{
 
 .headerlogo img{
   margin-top: 15px;
- 
-
-
-}
+ }
 
 .button{
   display: inline-block;
@@ -143,3 +140,28 @@ header{
 .w-50{
  width: 50%;
 }
+
+.subheader{
+  position: relative;
+  height: 100px;
+  background-color: #D3D3D3;
+}
+
+.subheader .subheader-text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.subheader-text h2{
+  color:black;
+}
+
+.subheader-text p{
+  margin-top: 10px;
+}
+
+
