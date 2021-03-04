@@ -165,3 +165,45 @@ header{
 }
 
 
+.main-servizi{
+  margin: 40px auto;
+}
+.main-servizi:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.servizi{
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.servizi:first-child{
+  margin-right: calc(25% / 2);
+}
+.servizi:last-child{
+  margin-left: calc(25% / 2);
+}
+.servizi h2{
+  color: #7CBB02;
+  padding-bottom: 25px;
+}
+.servizi hr{
+  width: 60px;
+  margin: 0 auto;
+}
+.servizi img{
+  height: 188px;
+}
+.servizi p{
+  text-align: center;
+  padding-top: 25px;
+}
+
+hr.divider{
+  width: 98%;
+  margin: 0 auto;
+}
+
+
