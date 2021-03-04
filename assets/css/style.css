@@ -4,19 +4,138 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: grey;
+}
+
+/* HEADER */
 
 header{
   background-color: #0c325a;
   width: 100vw;
-  height: 500px;
-  background-image:url(../img/background-header.png);
-  background-size: 65%;
-  background-repeat: no-repeat;
-  background-position: 118% 100%;
+  height: 550px;
+  
 }
 
 
+.headercontainer{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  min-width: 1400px;
+  background-repeat: no-repeat;
+  background-image: url(../img/background-header.png);
+ background-position: 115% 100%; 
+ background-size: 1000px;
+ padding: 0 10%;
+
+ 
+
+}
+
+
+.headernav{
+  height: 70px;
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden; 
+  
+}
+
+.float-left{
+  float:left;
+}
+
+.headerlogo{
+  width: 15%;
+  
+  
+}
+
+.headercenternav{
+  width: 45%;
+}
+
+.headerrightnav{
+  width: 40%;
+  text-align: right; 
+}
+
+.menuinline{
+  list-style: none;
+}
+
+.menuinline li{
+  display: inline;
+  padding: 0 10px;
+}
+
+.menuinline li a{ 
+ color: white;
+ text-transform: uppercase;
+ text-decoration: none;
+ font-size: 80%;
+}
+
+.headerlogo img{
+  margin-top: 15px;
+ 
+
+
+}
+
+.button{
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 5px 10px;
+  color: white;
+ text-transform: uppercase;
+ text-decoration: none;
+ font-size: 80%;
+}
+
+.button.buttongreen{
+  background-color: #7cbb04;
+}
+
+.button.buttonblue{
+  border: 1px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.menu{
+  position: relative;
+  height: 470px;
+  
+}
+
+
+.menutext{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+
+.menutext h1{
+  color: white;
+  font-size: 350%;
+  margin-bottom: 30px;
+}
+
+
+.w-50{
+ width: 50%;
+}
