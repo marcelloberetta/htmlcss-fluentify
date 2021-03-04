@@ -114,6 +114,10 @@ header{
 }
 
 
+.button-large{
+  padding: 20px;
+}
+
 .menu{
   position: relative;
   height: 470px;
